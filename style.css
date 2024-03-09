@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;  /* Specify preferred font family */
+    margin: 0;
+    background-color: #f5f5f5;  /* Set a background color for the body */
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;  /* Change text color to white */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: inherit;  /* Inherit color from nav */
+    font-weight: bold; /* Make navigation links bold */
+  }
+  
+  nav a:hover {  /* Change color on hover */
+    color: #ddd;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: white;  /* Set a background color for sections */
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;  /* Increase heading size */
+  }
+  
+  .intro-text { /* Create a class for specific styling */
+    font-style: italic;  /* Italicize intro text */
+    font-size: 1.2em;  /* Adjust intro text size */
+  }
+  
+  img {
+    width: 250px; /* Adjust image width as needed */
+    display: block;  /* Center image horizontally */
+    margin: 10px auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+  }
+  
+  .copyright {  /* Style the copyright text with a class */
+    color: #333;
+    font-size: 0.8em;  /* Smaller font size for copyright */
+  }
